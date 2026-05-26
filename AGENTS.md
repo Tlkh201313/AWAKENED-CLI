@@ -1,4 +1,4 @@
-- Awakening CLI fork — repo: [Tlkh201313/awakening-cli-new-gen](https://github.com/Tlkh201313/awakening-cli-new-gen), upstream: [OpenCode](https://github.com/anomalyco/opencode).
+- Awakening CLI fork — repo: [Tlkh201313/AWAKENED-CLI](https://github.com/Tlkh201313/AWAKENED-CLI), upstream: [OpenCode](https://github.com/anomalyco/opencode).
 - To regenerate the JavaScript SDK, run `./packages/sdk/js/script/build.ts`.
 - ALWAYS USE PARALLEL TOOLS WHEN APPLICABLE.
 - The default branch in this repo is `dev`.

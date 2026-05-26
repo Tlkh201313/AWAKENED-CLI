@@ -401,7 +401,7 @@ jobs:
           persist-credentials: false
 
       - name: Run awakened
-        uses: anomalyco/awakened/github@latest${envStr}
+        uses: Tlkh201313/AWAKENED-CLI/github@latest${envStr}
         with:
           model: ${provider}/${model}`,
           )

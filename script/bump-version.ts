@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 
 const version = process.argv[2] ?? process.env.AWAKENED_VERSION ?? "1.0.0"
-const repo = "https://github.com/Tlkh201313/awakening-cli-new-gen"
+const repo = "https://github.com/Tlkh201313/AWAKENED-CLI"
 
 for await (const file of new Bun.Glob("**/package.json").scan(".")) {
   if (file.includes("node_modules") || file.includes("dist")) continue

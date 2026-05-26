@@ -287,7 +287,7 @@ const TIPS: Tip[] = [
     shortcuts.commandList()
       ? `Toggle username display in chat via the command palette (${shortcutText(shortcuts.commandList())})`
       : "Toggle username display in chat via the command palette",
-  "Run {highlight}docker run -it --rm ghcr.io/anomalyco/awakened{/highlight} for containerized use",
+  "Run {highlight}docker run -it --rm ghcr.io/Tlkh201313/AWAKENED-CLI{/highlight} for containerized use",
   "Use {highlight}/connect{/highlight} with Awakened Zen for curated, tested models",
   "Commit your project's {highlight}AGENTS.md{/highlight} file to Git for team sharing",
   "Use {highlight}/review{/highlight} to review uncommitted changes, branches, or PRs",

@@ -31,13 +31,13 @@ const xml = `<?xml version="1.0" encoding="UTF-8"?>
 
   <content_rating type="oars-1.1" />
 
-  <url type="bugtracker">https://github.com/anomalyco/awakened/issues</url>
+  <url type="bugtracker">https://github.com/Tlkh201313/AWAKENED-CLI/issues</url>
   <url type="homepage">https://awakened.ai</url>
-  <url type="vcs-browser">https://github.com/anomalyco/awakened</url>
+  <url type="vcs-browser">https://github.com/Tlkh201313/AWAKENED-CLI</url>
 
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/anomalyco/awakened/b75d4d1c5ec449585d515c756fc81f080a157a9a/packages/web/src/assets/lander/screenshot.png</image>
+      <image>https://raw.githubusercontent.com/Tlkh201313/AWAKENED-CLI/b75d4d1c5ec449585d515c756fc81f080a157a9a/packages/web/src/assets/lander/screenshot.png</image>
     </screenshot>
   </screenshots>
 </component>

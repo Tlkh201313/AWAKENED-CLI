@@ -261,7 +261,7 @@ export const layer: Layer.Layer<Service, never, HttpClient.HttpClient | AppProce
         }
 
         const response = yield* httpOk.execute(
-          HttpClientRequest.get("https://api.github.com/repos/anomalyco/awakened/releases/latest").pipe(
+          HttpClientRequest.get("https://api.github.com/repos/Tlkh201313/AWAKENED-CLI/releases/latest").pipe(
             HttpClientRequest.acceptJson,
           ),
         )

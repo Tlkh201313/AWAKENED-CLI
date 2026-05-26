@@ -1,6 +1,6 @@
 # awakened GitHub Action
 
-A GitHub Action that integrates [awakened](https://github.com/Tlkh201313/awakening-cli-new-gen) directly into your GitHub workflow.
+A GitHub Action that integrates [awakened](https://github.com/Tlkh201313/AWAKENED-CLI) directly into your GitHub workflow.
 
 Mention `/awakened` in your comment, and awakened will execute tasks within your GitHub Actions runner.
 
@@ -88,7 +88,7 @@ This will walk you through installing the GitHub app, creating the workflow, and
               persist-credentials: false
 
           - name: Run awakened
-            uses: Tlkh201313/awakening-cli-new-gen/github@latest
+            uses: Tlkh201313/AWAKENED-CLI/github@latest
             env:
               ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -101,7 +101,7 @@ This will walk you through installing the GitHub app, creating the workflow, and
 
 ## Support
 
-This is an early release. If you encounter issues or have feedback, please create an issue at https://github.com/Tlkh201313/awakening-cli-new-gen/issues.
+This is an early release. If you encounter issues or have feedback, please create an issue at https://github.com/Tlkh201313/AWAKENED-CLI/issues.
 
 ## Development
 

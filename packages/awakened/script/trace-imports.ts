@@ -2,7 +2,7 @@
 import * as path from "path"
 import * as ts from "typescript"
 
-const BASE_DIR = "/home/thdxr/dev/projects/anomalyco/awakened/packages/awakened"
+const BASE_DIR = "/home/thdxr/dev/projects/Tlkh201313/AWAKENED-CLI/packages/awakened"
 
 // Get entry file from command line arg or use default
 const ENTRY_FILE = process.argv[2] || "src/cli/cmd/tui/plugin/index.ts"

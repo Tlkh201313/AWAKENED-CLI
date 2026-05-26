@@ -1,12 +1,12 @@
 #!/usr/bin/env bun
 
-const repo = "Tlkh201313/awakening-cli-new-gen"
+const repo = "Tlkh201313/AWAKENED-CLI"
 const repoUrl = `https://github.com/${repo}`
 const upstream = "https://github.com/anomalyco/opencode"
 
 const replacements: Array<[string | RegExp, string]> = [
-  ["anomalyco/awakened", repo],
-  ["github.com/anomalyco/awakened", `github.com/${repo}`],
+  ["Tlkh201313/AWAKENED-CLI", repo],
+  ["github.com/Tlkh201313/AWAKENED-CLI", `github.com/${repo}`],
   ["https://awakened.ai/discord", repoUrl],
   ["https://discord.gg/awakened", repoUrl],
   ["https://x.com/awakened", repoUrl],

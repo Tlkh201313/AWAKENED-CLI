@@ -1,49 +1,20 @@
 <p align="center">
-  <a href="https://github.com/Tlkh201313/awakening-cli-new-gen">
-    <picture>
-      <source srcset="packages/console/app/src/asset/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
-      <source srcset="packages/console/app/src/asset/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
-      <img src="packages/console/app/src/asset/logo-ornate-light.svg" alt="Awakening CLI logo">
-    </picture>
+  <a href="https://github.com/Tlkh201313/AWAKENED-CLI">
+    <img src="https://img.shields.io/badge/⚡-Awakening_CLI-gold?style=for-the-badge" alt="Awakening CLI">
   </a>
 </p>
 
 <p align="center"><strong>Awakening CLI</strong> — AI coding agent (OpenCode fork)</p>
 
 <p align="center">
-  <a href="https://github.com/Tlkh201313/awakening-cli-new-gen/releases"><img alt="Release" src="https://img.shields.io/github/v/release/Tlkh201313/awakening-cli-new-gen?style=flat-square" /></a>
-  <a href="https://github.com/Tlkh201313/awakening-cli-new-gen/actions/workflows/test.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/Tlkh201313/awakening-cli-new-gen/test.yml?style=flat-square&branch=dev" /></a>
+  <a href="https://github.com/Tlkh201313/AWAKENED-CLI/releases"><img alt="Release" src="https://img.shields.io/github/v/release/Tlkh201313/AWAKENED-CLI?style=flat-square" /></a>
+  <a href="https://github.com/Tlkh201313/AWAKENED-CLI/actions/workflows/test.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/Tlkh201313/AWAKENED-CLI/test.yml?style=flat-square&branch=dev" /></a>
   <a href="https://github.com/anomalyco/opencode"><img alt="Upstream" src="https://img.shields.io/badge/upstream-OpenCode-blue?style=flat-square" /></a>
 </p>
 
-<p align="center">
-  <a href="README.md">English</a> |
-  <a href="README.zh.md">简体中文</a> |
-  <a href="README.zht.md">繁體中文</a> |
-  <a href="README.ko.md">한국어</a> |
-  <a href="README.de.md">Deutsch</a> |
-  <a href="README.es.md">Español</a> |
-  <a href="README.fr.md">Français</a> |
-  <a href="README.it.md">Italiano</a> |
-  <a href="README.da.md">Dansk</a> |
-  <a href="README.ja.md">日本語</a> |
-  <a href="README.pl.md">Polski</a> |
-  <a href="README.ru.md">Русский</a> |
-  <a href="README.bs.md">Bosanski</a> |
-  <a href="README.ar.md">العربية</a> |
-  <a href="README.no.md">Norsk</a> |
-  <a href="README.br.md">Português (Brasil)</a> |
-  <a href="README.th.md">ไทย</a> |
-  <a href="README.tr.md">Türkçe</a> |
-  <a href="README.uk.md">Українська</a> |
-  <a href="README.bn.md">বাংলা</a> |
-  <a href="README.gr.md">Ελληνικά</a> |
-  <a href="README.vi.md">Tiếng Việt</a>
-</p>
 
-[![Awakening CLI Terminal UI](packages/web/src/assets/lander/screenshot.png)](https://github.com/Tlkh201313/awakening-cli-new-gen)
 
-> **Awakening CLI** is an independent fork of [OpenCode](https://github.com/anomalyco/opencode). It ships the **Awakened** agent runtime with capability packs, design auto-routing, memory, and a terminal + web UI. This repository is maintained at [Tlkh201313/awakening-cli-new-gen](https://github.com/Tlkh201313/awakening-cli-new-gen).
+> **Awakening CLI** is an independent fork of [OpenCode](https://github.com/anomalyco/opencode). It ships the **Awakened** agent runtime with capability packs, design auto-routing, memory, and a terminal + web UI. This repository is maintained at [Tlkh201313/AWAKENED-CLI](https://github.com/Tlkh201313/AWAKENED-CLI).
 
 ---
 
@@ -52,8 +23,8 @@
 Requires [Bun](https://bun.sh) 1.3+.
 
 ```bash
-git clone https://github.com/Tlkh201313/awakening-cli-new-gen.git
-cd awakening-cli-new-gen
+git clone https://github.com/Tlkh201313/AWAKENED-CLI.git
+cd AWAKENED-CLI
 bun install
 bun run --cwd packages/awakened build
 bun link
@@ -62,7 +33,7 @@ awakened
 
 ### From release binaries
 
-Download the latest from [GitHub Releases](https://github.com/Tlkh201313/awakening-cli-new-gen/releases).
+Download the latest from [GitHub Releases](https://github.com/Tlkh201313/AWAKENED-CLI/releases).
 
 ```bash
 ./install --version 1.0.0
@@ -96,7 +67,7 @@ Use `@general` for complex multi-step searches. Capability packs (e.g. **awakene
 
 ## Desktop app (beta)
 
-Desktop builds are published on [Releases](https://github.com/Tlkh201313/awakening-cli-new-gen/releases) when available:
+Desktop builds are published on [Releases](https://github.com/Tlkh201313/AWAKENED-CLI/releases) when available:
 
 | Platform              | Artifact                           |
 | --------------------- | ---------------------------------- |
